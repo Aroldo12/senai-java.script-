@@ -1,0 +1,17 @@
+.fora{
+    width: 400px;
+    height: 800px;
+    background-color: blueviolet;
+    padding: 40px 50px 60px; 
+    background-image: url("castrin.jpg");
+    background-position: center;
+
+}
+.dentro{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin: 100px;
+    background-image: url("castrin.jpg");
+    background-position: center;
+}
