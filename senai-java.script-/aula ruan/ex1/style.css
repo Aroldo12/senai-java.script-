@@ -1,8 +1,21 @@
+.foora{
+    background-color: pink;
+    width: 1500px;
+    height: 100px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
 .fora{
-    width: 200;
-    height: 200;
+    width: 250px;
+    height: 100px;
     padding: 200px;
     background-color: black;
     background-image: url(bolo-morango-nordeste.jpg);
+    background-repeat: no-repeat; 
     
+}
+.fim{
+    background-color: gray;
 }
