@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center><form onsubmit="mostrar(event)">
+<label for="id_nome">Name:</label>
+<input type="text" id="id_nome" name="nome_usuario" />
+
+<label for="id_altura">Altura:</label>
+<input type="number" step="0.01" id="id_altura" name="altura_usuario" />
+
+<label for="id_prof">Profissão:</label>
+<input type="text" id="id_prof" name="prof_usuario" />
+
+<label for="id_peso">Peso:</label>
+<input type="number" step="0.01" id="id_peso" name="peso_usuario" />
+
+<label for="id_imagem">Escolha um Arquivo</label>
+<input type="url" id="id_imagem" name="imagem_usuario"><br>
+
+
+
+<button  type="submit">enviar</button>
+
+
+</form></center>
+    <div class="result">
+        <p id="texto-result"></p>
+        <img src="" alt="" id="imsgem-result">
+    </div>
+</body>
+</html>
