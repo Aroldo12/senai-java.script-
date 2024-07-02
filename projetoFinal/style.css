@@ -1,5 +1,5 @@
 #Adicionar {
-    
+
     width: 500px;
     height: 550px;
     background-color: rgb(117, 117, 117);
@@ -7,19 +7,169 @@
     text-align: center;
     border-color: black;
     border-radius: 100px;
-    
+
+
 }
-#voltar{
-margin: 80px;
-width: 100px;
-color: white;
-background-color: transparent;
+
+#voltar {
+    margin: 80px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+
+
 }
-.impu{
+
+.impu {
     width: 200px;
     height: 50px;
 }
+
+.filmes {
+    display: flex;
+    flex-grow: 2;
+
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg');
+    /* flex-direction: ; */
+}
+
+header {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg');
+
+    height: 70px;
+
+
+}
+
+.paginaFilmes {
+    /* background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg'); */
+    height: 40px;
+    width: 100px;
+}
+
+.protaProta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    
+}
+#molde1{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM1{
+    height: 240px;
+    width: 200px;
+    
+}
+#molde2{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM2{
+    height: 240px;
+    width: 200px;
+    
+}
+#molde3{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM3{
+    height: 240px;
+    width: 200px;
+    
+}
+#molde4{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM4{
+    height: 240px;
+    width: 200px;
+    
+}
+#molde5{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM5{
+    height: 240px;
+    width: 200px;
+    
+}
+#molde6{
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    height: 720px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#imgM6{
+    height: 240px;
+    width: 200px;
+    
+}
+
+
+
