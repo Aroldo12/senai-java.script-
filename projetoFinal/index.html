@@ -8,32 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div id="Adicionar"><form onsubmit="principal()">
+    <nav>
+        <button>Filmes</button>
+       
+        <button>Protagonista</button>
 
-        <!-- por foto -->
-
-        <label for="is_personagem">personagem</label>
-        <input type="text" id="id_personagem" name="personagem"><br>
-
-        <label for="id_filme">filme</label>
-        <input type="text" id="id_filme" name="filme"><br>
-
-        <label for="id_ator">Ator/Atriz</label>
-        <input type="text" id="id_ator" name="ator"><br>
-
-        <label for="id_descricao">Descrição</label>
-        <textarea name="descricao" id="id_descricao" cols="15" rows="5" ></textarea><br>
-
+    </nav>
+    <button onclick="exibir()">Adicionar Prota</button>
+    <div class="pagina" id="Adicionar"><form onsubmit="principal(event)">
+        <p>foto</p>
+        <label for="foto">
+        <input type="url" id="foto" name="foto">
+        <p>Nome</p>
+</label>
+        <label for="is_personagem">
+        <input type="text" id="id_personagem" name="personagem">
+        <p>Filme</p>
+</label>
+        <label for="id_filme">
+        <input type="text" id="id_filme" name="filme">
+        <p>Ator</p>
+</label>
+        <label for="id_ator">
+        <input type="text" id="id_ator" name="ator">
+        <p>descrição</p>
+</label>
+        <label for="id_descricao">
+        <textarea class="impu" name="descricao" id="id_descricao" cols="15" rows="5" ></textarea><br>
+</label>
         <button type="submit">Enviar</button>
 
     
-    
-    
-    
-    
-    
     </form>
+    <footer >
+    <button id="voltar" onclick="ocultar()">Voltar</button>
+    </footer>
+    
     </div>
 
 
