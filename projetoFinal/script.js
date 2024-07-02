@@ -21,8 +21,15 @@ function principal(eventoRecebido){
     const filme = document.querySelector('#id_filme').value
     const ator = document.querySelector('#id_ator').value
     const descricao = document.querySelector('#id_descricao').value
+    const para = document.querySelector('.papa')
+    const titulo = document.querySelector('#t2')
+    const capa = document.querySelector('#imgM2')
+    const img = document.querySelector('#foto').value
 
-    let lista = []
+    let nomes1 = []
+    let filmes = []
+    let atuacao = []
+    let argumentacao = []
     
     localStorage.setItem('nome', personagem)
     localStorage.setItem('Filme', filme)
@@ -34,17 +41,28 @@ function principal(eventoRecebido){
     const teste3 = localStorage.getItem('Ator')
     const teste4 = localStorage.getItem('Descrcao')
     
-// console.log(teste)
-// console.log(teste2)
-// console.log(teste3)
-// console.log(teste4)
-lista.push(teste)
-localStorage.setItem('nomes', JSON.stringify(lista) )
+
+// lista.push(teste)
+// localStorage.setItem('nomes', JSON.stringify(nomes1) )
+// lista.push(teste2)
+// localStorage.setItem('nomes', JSON.stringify(filmes) )
+// lista.push(teste3)
+// localStorage.setItem('nomes', JSON.stringify(atuacao) )
+// lista.push(teste4)
+// localStorage.setItem('nomes', JSON.stringify(argumentacao) )
 
 
-   console.log(lista)
+//    console.log(lista)
 
-    
+titulo.textContent = personagem
+
+   para.innerHTML = `Filme: ${filme} <br> <br> <br> Ator: ${ator} <br> <br> <br> Descricao: ${descricao}`
+
+capa.src = img
+
+
+
+   
 
 
 }
@@ -54,6 +72,8 @@ if(localStorage.getItem('nomes')){
 listaRecuperada = JSON.parse(localStorage.getItem('nomes'))
 }
 console.log(listaRecuperada)
+
+
 
 
 

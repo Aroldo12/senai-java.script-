@@ -90,7 +90,7 @@ header {
     background-color: rgb(117, 117, 117);
     text-align: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
     width: 520px;
     height: 720px;
     align-items: center;
