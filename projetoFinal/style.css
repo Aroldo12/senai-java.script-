@@ -1,9 +1,25 @@
 #Adicionar {
     
     width: 500px;
-    height: 400px;
-    background-color: gainsboro;
+    height: 550px;
+    background-color: rgb(117, 117, 117);
     margin: 0 auto;
     text-align: center;
+    border-color: black;
+    border-radius: 100px;
     
+}
+#voltar{
+margin: 80px;
+width: 100px;
+color: white;
+background-color: transparent;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.impu{
+    width: 200px;
+    height: 50px;
 }
