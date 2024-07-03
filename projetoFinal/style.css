@@ -38,14 +38,15 @@ nav {
 }
 
 body {
-    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg');
+    background-image: url('https://designermaodevaca.com/manager/upload/b6dcf5-brilhantes-ilustracoes-digitais-de-uma-cidade-a-noite-gone-romain-trystram-designer-mao-de-vaca-1.jpg');
     /* flex-direction: ; */
 }
 
 header {
-    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg');
+    background-image: url('https://designermaodevaca.com/manager/upload/b6dcf5-brilhantes-ilustracoes-digitais-de-uma-cidade-a-noite-gone-romain-trystram-designer-mao-de-vaca-1.jpg');
 
     height: 70px;
+    backdrop-filter: blur(20px);
 
 
 }
@@ -69,16 +70,17 @@ header {
     border: 1px solid black;
     
 }
-#molde1{
+.molde1{
     display: flex;
-    background-color: rgb(117, 117, 117);
+    background-color: rgba(255, 0, 0, 0);
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: 520px;
-    height: 720px;
+    width: 400px;
+    height: 700px;
     align-items: center;
     border-radius: 10px;
+    backdrop-filter: blur(20px);
 
 }
 #imgM1{
@@ -113,6 +115,7 @@ header {
     height: 720px;
     align-items: center;
     border-radius: 10px;
+
 
 }
 #imgM3{
